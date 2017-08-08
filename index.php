@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
         <title>Bruce Tang Design</title>
 
         <!-- Bootstrap -->
@@ -20,35 +20,35 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        
+
         <!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
         <link href="https://fonts.googleapis.com/css?family=Trirong:300i" rel="stylesheet" type='text/css'>
-        
+
         <!-- Site Stylesheets -->
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet/less" type="text/css" href="css/stylesheet.less">
-        
+
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-        
+
         <!-- GSAP -->
     	<script type="text/javascript"  src="js/greensock/TweenMax.min.js"></script>
         <script type="text/javascript" src="js/greensock/plugins/CSSPlugin.min.js"></script>
         <script type="text/javascript" src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
         <script type="text/javascript" src="js/greensock/easing/EasePack.min.js"></script>
-        
+
         <!-- ScrollMagic -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
-        
+
         <!-- LESS -->
         <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
     </head>
-    
+
     <body>
         <?php include("header.php"); ?>
 
@@ -63,7 +63,7 @@
         <div id="confetti-8"></div>
         <div id="confetti-9"></div>
         <!-- END CONFETTI -->
-        
+
         <!-- INTRO/LANDING -->
         <section class="main-section" id="intro">
             <div id="intro-bg-container1"></div>
@@ -85,7 +85,7 @@
             </div>
         </section>
         <!-- END INTRO/LANDING -->
-        
+
         <!-- WORK -->
         <section class="main-section" id="work">
             <div id="work-bg-container1"></div>
@@ -102,7 +102,7 @@
             </div>
         </section>
         <!-- END WORK -->
-        
+
         <!-- ABOUT -->
         <section class="main-section" id="about">
             <!--<div id="confetti-5"></div>-->
@@ -110,7 +110,7 @@
             <div id="about-bg-container2"></div>
             <div id="about-bg-container3"></div>
 
-            <div class="container">			
+            <div class="container">
                 <!--<div id="about-bg-container"></div>-->
                 <h1>ABOUT</h1>
                 <div class = "row">
@@ -140,7 +140,7 @@
             </div>
         </section>
         <!-- END ABOUT -->
-        
+
         <!-- CONTACT -->
         <section class="main-section" id="contact">
             <div id="contact-bg-container1"></div>
@@ -150,46 +150,32 @@
                 <h1>CONTACT</h1>
                 <h4>Let's work together </h4>
                 <div class="row">
-                    <div class="col-md-4 col-sm-4">
+                    <div class="col-md-6 col-sm-6">
                         <div class="contact-link">
                             <a id="email-link" href="mailto:bruce@brucetangdesign.com" title="email" alt="email"><span class="fa fa-envelope-o fa-4x"></span>  EMAIL</a>
                         </div>
                     </div>
-                    <div class=" col-md-4 col-sm-4">
+                    <div class=" col-md-6 col-sm-6">
                         <div class="contact-link">
                             <a id="phone-link" href="tel:631-741-7344" title="phone" alt="phone"><span class="fa fa-mobile fa-4x"></span>  P: 631-741-7344</a>
                         </div>
                     </div>
+                    <!--
                     <div class="col-md-4 col-sm-4">
                       <div class="contact-link">
                           <a id="email-link" href="https://dribbble.com/brucetang" title="dribbble" alt="dribbble"><span class="fa fa-dribbble fa-4x"></span>  DRIBBBLE</a>
                       </div>
                   </div>
+                -->
                 </div>
             </div>
         </section>
         <!-- END CONTACT -->
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-        
-        <!-- GSAP plugins -->
-        <script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
-        <script type="text/javascript" src="js/greensock/plugins/CSSPlugin.min.js"></script>
-        <script type="text/javascript" src="js/greensock/plugins/ScrollToPlugin.min.js"></script>
-        <script type="text/javascript" src="js/greensock/easing/EasePack.min.js"></script>
-        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
-        
         <!-- Bootstrap -->
         <script src="js/bootstrap.min.js"></script>
-        
         <!-- Site javascript file -->
         <script type="text/javascript" src="js/jquery.js"></script>
-
-        <script>
-
-        </script>
 
       </body>
 </html>
