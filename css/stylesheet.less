@@ -141,7 +141,7 @@ ul{
 }
 
 
-#logo{	
+#logo{
 	position: relative;
 	margin: @header-margin;
 	margin-left: 20px;
@@ -168,7 +168,7 @@ ul{
     font-style: italic;
     color: #FFFFFF;
 	font-size: .67em;
-    -webkit-font-smoothing: antialiased; 
+    -webkit-font-smoothing: antialiased;
 }
 
 .nav{
@@ -441,7 +441,7 @@ ul{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
-	
+
 	position: relative;
 	min-height: 100vh;
 	margin-bottom: 100px;
@@ -459,7 +459,7 @@ ul{
 }
 
 #intro{
-    background: url("../img/intro-bg.jpg") no-repeat fixed;
+    background: url("../img/intro-bg.png") no-repeat fixed;
     background-position: center bottom;
     background-size: 50%;
 	//-moz-background-size: 50% 50%;
@@ -491,7 +491,7 @@ ul{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
-    
+
     transform:  skew(0deg,-4deg) translate(0px);
     -webkit-transform:  skew(0deg,-4deg) translate(0px);
     -moz-transform: skew(0deg,-4deg) translate(0px);
@@ -556,7 +556,7 @@ ul{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
-    
+
     transform:  skew(0deg,4deg) translate(0px);
     -webkit-transform:  skew(0deg,4deg) translate(0px);
     -moz-transform: skew(0deg,4deg) translate(0px);
@@ -568,6 +568,7 @@ ul{
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    margin-bottom: 100px;
 }
 
 #about{
@@ -599,7 +600,7 @@ ul{
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
-    
+
     transform:  skew(0deg,-4deg) translate(0px);
     -webkit-transform:  skew(0deg,-4deg) translate(0px);
     -moz-transform: skew(0deg,-4deg) translate(0px);
@@ -681,10 +682,10 @@ ul{
   bottom: 0;
   left: 0;
   right: 0;
-  
+
   z-index: 1;
   opacity: .15;
-  
+
   .wk-tn-trans-props;
 }
 
@@ -722,7 +723,7 @@ ul{
     text-align: center;
 }
 
-.wk-tn-text{	
+.wk-tn-text{
 	display: inline-block;
 	font-family: 'Montserrat-Bold', sans-serif;
 	font-size: 1.4em;
@@ -736,7 +737,7 @@ ul{
     margin-right: 25px;
     line-height: .9em;
     padding: 8px;
-    
+
 }
 
 .wk-tn-text-cont{
@@ -756,7 +757,7 @@ ul{
 	display: block;
 	width: 100%;
 	height: 100%;
-	
+
 	overflow: hidden;
     text-indent: 100%;
     white-space:nowrap;
@@ -826,10 +827,10 @@ ul{
 }
 
 #contact a:hover{
-    
+
     background-color: #ffffff;
     //.contact-link-anim-props;
-    
+
 	//-webkit-transform: perspective(1px) scale(1.1); /* Safari and Chrome */
     //-moz-transform: perspective(1px) scale(1.1); /* Firefox */
     //-ms-transform:scale(1.1); /* IE 9 */
@@ -847,18 +848,18 @@ button{
 	font-size: 1em;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
-	
+
 	.wk-tn-trans-props;
-	
+
 	-webkit-box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
 	-moz-box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
 	box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.3);
 	color: @button-text-color;
-	
+
 	-ms-transform:rotate(0.0001deg); /* IE 9 */
     -webkit-transform: translate(0px,0px) rotate(0.0001deg) translateZ(0) scale(1.0, 1.0); /* Safari */
 	transform: translate(0px,0px) rotate(0.0001deg) translateZ(0) scale(1.0, 1.0);
--webkit-backface-visibility:hidden;	
+-webkit-backface-visibility:hidden;
 }
 
 button:hover{
@@ -867,13 +868,13 @@ button:hover{
   -o-transition:      all 0.1s ease;
   -ms-transition:     all 0.1s ease;
   transition:         all 0.1s ease;
-	
+
 	background-color: #ffffff;
-	
+
 	-webkit-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.1);
-	
+
 	-ms-transform:rotate(0.0001deg); /* IE 9 */
     -webkit-transform:translate(-2px,-2px) rotate(0.0001deg) translateZ(0) scale(1.0, 1.0); /* Safari */
 	transform: translate(-2px,-2px) rotate(0.0001deg) translateZ(0) scale(1.0, 1.0);
@@ -901,7 +902,7 @@ button:hover{
 
 .work-detail-header h2{
     color: @text-color;
-    margin-top: 130px;   
+    margin-top: 130px;
     margin-bottom: 30px;
     z-index: 10002;
     position: relative;
@@ -1023,13 +1024,13 @@ ul.role-list{
     width: 100%;
     height: 100%;
     background: #f8f8e9;
-   
+
     margin-top: -35px;
-    
+
     /*
     -webkit-filter: grayscale(50%);
     filter: grayscale(50%);
-    
+
     filter:alpha(opacity=50);
     -moz-opacity:0.5;
     -khtml-opacity: 0.5;
@@ -1053,16 +1054,16 @@ ul.role-list{
   .nav {
     display: none;
   }
-  
+
   #mobile-nav-icon {
 	display: inline;
   }
-  
+
   /*#header-bg{
 	display: block;
   }*/
-  
-  #logo{	
+
+  #logo{
 	font-size: 25px;
   }
 
@@ -1072,36 +1073,36 @@ ul.role-list{
 	h1{
 		font-size: 4em;
 	}
-	
+
 	h4{
 		font-size: 1.5em;
 	}
-    
+
     #intro{
       background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  -webkit-background-size: cover;
     }
-    
+
     .container{
       text-align: center;
     }
-    
+
      #contact-info li{
 	   margin-left: 0px;
     }
-    
+
     //CLIENT DETAIL PAGE -----
     #client-amf-header p{
         font-size: 1em;
     }
-    
+
     #contact-info li{
 	   margin-left: 0px;
         margin-right: 0px;
     }
-    
+
     h3.role-list-heading{
         display: block;
         margin-right: 0px;
@@ -1116,21 +1117,21 @@ ul.role-list{
 	h1{
 		font-size: 2.5em;
 	}
-	
+
     h3{
 		font-size: 1em;
 	}
-    
+
 	h4{
 		font-size: 1.2em;
 	}
-	
+
 	.contMobileProps{
 		h1{
 			margin-top: 90px;
 		}
 	}
-	
+
 	#work .container{
 		.contMobileProps;
 	}
@@ -1142,27 +1143,27 @@ ul.role-list{
 	#contact .container{
 		.contMobileProps;
 	}
-    
+
     p{
 	  font-size: 1.1em;
     }
-    
+
     ul{
         font-size: 1.1em;
     }
-    
+
     .wk-tn-text{
         font-size: 1.1em;
         line-height: 1em;
         padding: 4px;
     }
-    
+
     //CLIENT DETAIL PAGE -----
     h3.role-list-heading{
         margin-right: 0px;
     }
-    
-    
+
+
     .role-list li{
         text-align: left;
         display: block;

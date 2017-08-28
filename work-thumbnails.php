@@ -35,11 +35,12 @@ try {
         log_error("Failed to run query", $e->getMessage(), $e->getCode(), array('exception' => $e));
     }
 } catch (PDOException $e) {
-    log_error("Failed to connect to database", $e->getMessage(), $e->getCode(), array('exception' => $e));
+    log_error("Failed to connect to database test", $e->getMessage(), $e->getCode(), array('exception' => $e));
 }
 
 function log_error($message, $error = null, $code = null, $extra = null){
-    echo $message;
+    echo $error;
+    echo $code;
     // This would log the error to an error log
     // You could use an existing logging library or use a simple fwrite.
     // For a good logging library I recommend monolog https://github.com/Seldaek/monolog
