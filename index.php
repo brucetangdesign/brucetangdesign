@@ -71,7 +71,7 @@
             <div id="intro-bg-container3"></div>
             <div class="container">
                 <h1>BRUCE <span class='secondary-text-color'>TANG</span></h1>
-                <h4>An award winning web designer with over 13 years of experience <br>building creative, well crafted, user friendly web sites.</h4>
+                <h4>An award winning web designer with over 15 years of experience <br>building creative, well crafted, user friendly web sites.</h4>
                 <a href="#work">
                 <div id="home-down-arrow">
                 <svg height="60" width="120">

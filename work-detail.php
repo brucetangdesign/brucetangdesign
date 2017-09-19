@@ -7,7 +7,8 @@ $role_icon_array = array
     array("Brand Identity","fa-star"),
   array("Visual Design","fa-picture-o"),
   array("Art Direction","fa-eye"),
-  array("UX","fa-object-ungroup")
+  array("UX","fa-object-ungroup"),
+  array("Development","fa-code")
 );
 
 $dsn = 'mysql:host=localhost;dbname=work_db;charset=utf8mb4';
@@ -102,7 +103,7 @@ $conn=NULL;
                       foreach ($row as $key) {
                           if($key['ID']==$client){
                               echo "<h1 class='{$key['H1_Class']}'>{$key['Title']}</h1>";
-                              echo "<p>{$key[Intro]}</p>";
+                              echo "<p>{$key['Intro']}</p>";
                               echo "<h3 class='role-list-heading'>MY ROLE:</h3>";
 
                               //ROLES
@@ -136,7 +137,7 @@ $conn=NULL;
 
                               //PROJECT LINK BUTTON
                               if($key['Href']){
-                                  echo "<form action='{$row['Href']}'><button class='launch-project-btn' type='submit'>VIEW THE SITE</button></form>";
+                                  echo "<form action='{$key['Href']}'><button class='launch-project-btn' type='submit'>VIEW THE SITE</button></form>";
                               }
 
                               echo "</section>";

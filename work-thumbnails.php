@@ -1,7 +1,7 @@
 <?php
 
 if($page=="home"){
-    $maxRows = 5;
+    $maxRows = 6;
 }
 
 $dsn = 'mysql:host=localhost;dbname=work_db;charset=utf8mb4';
@@ -13,7 +13,7 @@ try {
 
     try {
         $sth = $dbh->query("SELECT * FROM work_table");
-        $row = $sth->fetchAll(PDO::FETCH_ASSOC);
+        $row = array_reverse($sth->fetchAll(PDO::FETCH_ASSOC));
 
         foreach ($row as $key) {
             echo "<div class='col-md-4 col-sm-4'>";
@@ -25,11 +25,11 @@ try {
                 echo "</a>";
             echo "</div>";
 
-            if($page=="home"){
+            /*if($page=="home"){
                 if((int)$key['ID']==$maxRows){
                     break;
                 }
-            }
+            }*/
         }
     } catch (PDOException $e) {
         log_error("Failed to run query", $e->getMessage(), $e->getCode(), array('exception' => $e));
