@@ -130,7 +130,7 @@
                       <ul>
                         <li>Visual Design</li>
                         <li>Front-End Web Development</li>
-                        <li>Interactive Design</li>
+                        <li>Interaction Design</li>
                         <li>Animation</li>
                         <li>Art Direction</li>
                       </ul>
