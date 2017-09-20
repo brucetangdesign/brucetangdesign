@@ -115,8 +115,8 @@
                 <h1>ABOUT</h1>
                 <div class = "row">
                     <div class="col-sm-8">
-                      <p>For the past 13 years I have created engaging web experiences for a diverse set of clients. I started my career at the award winning, NYC based interactive design agency, Squeaky Wheel Media. In 2012 I embarked on my career as a freelance visual designer and consultant.</p>
-                      <p>I have designed and collaborated on award winning websites for a wide array of clients, big and small (Lexus, Revlon, AMF, USC Credit Union, Oberlin College, SoBe, MaxMara, WisdomTree, and Axe to name a few.</p>
+                      <p>For the past 13 years I have created engaging web experiences for a diverse set of clients. I started my career at the award winning, NYC based interactive design agency, Squeaky Wheel Media. In 2012 I embarked on my career as a freelance visual designer, front end developer and consultant.</p>
+                      <p>I have designed and collaborated on award winning websites for a wide array of clients, big and small (NY Lottery, Lexus, Revlon, AMF, USC Credit Union, Oberlin College, SoBe, MaxMara, WisdomTree, and Axe to name a few.</p>
                       <ul id="about-awards">
                         <li><img src="img/awards-webby.png"/></li>
                         <li><img src="img/awards-w3.png"/></li>
@@ -128,12 +128,11 @@
                     <div class="col-sm-4" id="test">
                       <h2>CORE SERVICES</h2>
                       <ul>
-                        <li>Web Design</li>
-                        <li>Graphic Design</li>
+                        <li>Visual Design</li>
                         <li>Front-End Web Development</li>
-                        <li>Art Direction</li>
                         <li>Interactive Design</li>
-                        <li>UX Design</li>
+                        <li>Animation</li>
+                        <li>Art Direction</li>
                       </ul>
                     </div>
                 </div>
