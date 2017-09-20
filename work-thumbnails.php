@@ -5,9 +5,11 @@ if($page=="home"){
     $maxWork = 5;
 }
 
-$dsn = 'mysql:host=localhost;dbname=work_db;charset=utf8mb4';
+//$dsn = 'mysql:host=localhost;dbname=work_db;charset=utf8mb4';
+$dsn = 'mysql:host=mysql.brucetangdesign.com;dbname=btd_dev_work_db;charset=utf8mb4';
 $user = 'brucetang';
-$password = 'twixie78';
+//$password = 'twixie78';
+$password = 'udeG795Ewh';
 
 try {
     $dbh = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
