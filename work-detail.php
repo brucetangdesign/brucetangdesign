@@ -12,7 +12,7 @@ $role_icon_array = array
 );
 
 //$dsn = 'mysql:host=localhost;dbname=work_db;charset=utf8mb4';
-$dsn = 'mysql:host=mysql.brucetangdesign.com;dbname=btd_dev_work_db;charset=utf8mb4';
+$dsn = 'mysql:host=mysql.brucetangdesign.com;dbname=btd_live_work_db;charset=utf8mb4';
 $user = 'brucetang';
 $password = 'udeG795Ewh';
 
